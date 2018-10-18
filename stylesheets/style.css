@@ -469,6 +469,13 @@ a {
         #about #intro-div ul li a i:hover {
           color: #455A64;
           opacity: 1; }
+      #about #intro-div ul li a img {
+        width: 23px;
+        height: 23px;
+        opacity: .5;
+        margin: 0 5px 9px 5px;}
+        #about #intro-div ul li a img:hover {
+          opacity: 1; }
     #about #intro-div p {
       padding: 0 5%;
       margin: 32px 0; }
@@ -595,6 +602,12 @@ a {
   padding: 0 20px;
   line-height: 1.2;
   font-weight: 400; }
+  .timeline-content .sub-heading2 {
+    text-decoration: none;
+    color: #455A64;
+    padding: 0 20px 20px 20px;
+    line-height: 1.2;
+    font-weight: 400; }
 .timeline-content .content-p {
   padding: 10px 20px 20px 20px;
   font-weight: 300; }
@@ -644,8 +657,9 @@ a {
   background-color: #ffffff;
   padding: 20px 20px 30px 20px; }
   #services .service-item i {
-    font-size: 70px;
-    color: #455A64; }
+    font-size: 50px;
+    color: #455A64;
+    padding: 0px 0px 20px 0px; }
   #services .service-item h6 {
     margin: 0;
     line-height: 1.4;
